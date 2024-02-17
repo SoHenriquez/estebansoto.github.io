@@ -1,0 +1,99 @@
+[
+    {
+    "id": "1000",
+    "code": "f230fh0g3",
+    "name": "Bamboo Watch",
+    "description": "Product Description",
+    "image": "bamboo-watch.jpg",
+    "price": 65,
+    "category": "Accessories",
+    "quantity": 24,
+    "inventoryStatus": "INSTOCK",
+    "rating": 5
+    },
+    {
+        "id": "2000",
+        "code": "j43k29f0d",
+        "name": "UltraMax Pro",
+        "description": "The latest flagship smartphone with revolutionary camera technology and lightning-fast performance.",
+        "image": "ultramax_pro.jpg",
+        "price": 899,
+        "category": "Electronics",
+        "quantity": 100,
+        "inventoryStatus": "INSTOCK",
+        "rating": 4.7
+    },
+    {
+        "id": "3000",
+        "code": "g2h103p9q",
+        "name": "Noise Cancelling Headphones",
+        "description": "Immerse yourself in your music with active noise cancellation and superior sound quality.",
+        "image": "noise_cancelling_headphones.jpg",
+        "price": 149,
+        "category": "Electronics",
+        "quantity": 50,
+        "inventoryStatus": "LOWSTOCK",
+        "rating": 4.8
+      },
+      {
+        "id": "4000",
+        "code": "x1z9c8v3b",
+        "name": "Classic Aviator Sunglasses",
+        "description": "Timeless style and premium materials for the ultimate protection and comfort.",
+        "image": "aviator_sunglasses.jpg",
+        "price": 59,
+        "category": "Accessories",
+        "quantity": 200,
+        "inventoryStatus": "INSTOCK",
+        "rating": 4.5
+      },
+      {
+        "id": "5000",
+        "code": "u8y20x9d1",
+        "name": "Travel Mug with Leakproof Lid",
+        "description": "Enjoy your coffee on the go without spills or leaks. Keeps your beverage hot or cold for hours.",
+        "image": "travel_mug.jpg",
+        "price": 25,
+        "category": "Home & Kitchen",
+        "quantity": 300,
+        "inventoryStatus": "INSTOCK",
+        "rating": 4.9
+      },
+      {
+        "id": "6000",
+        "code": "k7w49y0z2",
+        "name": "Hardcover Lined Notebook",
+        "description": "Premium paper and a stylish hardcover design for all your writing needs.",
+        "image": "notebook.jpg",
+        "price": 12,
+        "category": "Office Supplies",
+        "quantity": 150,
+        "inventoryStatus": "INSTOCK",
+        "rating": 4.4
+      },
+      {
+        "id": "7000",
+        "code": "o1s29n3x4",
+        "name": "Water-Resistant Travel Backpack",
+        "description": "Durable and spacious backpack with water-resistant material perfect for any adventure.",
+        "image": "travel_backpack.jpg",
+        "price": 79,
+        "category": "Travel",
+        "quantity": 75,
+        "inventoryStatus": "INSTOCK",
+        "rating": 4.3
+      },
+      {
+        "id": "8000",
+        "code": "t5p63m2n1",
+        "name": "LED Desk Lamp with Adjustable Brightness",
+        "description": "Energy-efficient LED lamp with multiple brightness levels for optimal lighting.",
+        "image": "desk_lamp.jpg",
+        "price": 39,
+        "category": "Home & Office",
+        "quantity": 120,
+        "inventoryStatus": "INSTOCK",
+        "rating": 4.6
+      } 
+
+]
