@@ -9,3 +9,15 @@
 @tailwind utilities;
 
 @layer reset, primeng;
+
+body::-webkit-scrollbar {
+    width: 14px;
+    height: 8px;
+  }
+  body::-webkit-scrollbar-thumb {
+    background: linear-gradient(13deg, #ebebeb 14%,#f0f0f0 64%);
+    border-radius: 10px;
+  }
+  body::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(13deg, #e0e0e0 14%,#cccccc 64%);
+  }
