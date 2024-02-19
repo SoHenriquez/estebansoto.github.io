@@ -1,0 +1,28 @@
+<div class="   md:px-6 lg:px-8">
+    <div class="text-700 text-center">
+      <div class="text-blue-600 font-bold mb-3 text-2xl flex items-center justify-center"><i class="pi pi-star-fill"></i>&nbsp;PROYECTOS REALIZADOS
+      </div>
+      <div class="card">
+        <p-carousel [value]="products" [numVisible]="3" [numScroll]="3" [circular]="false">
+          <ng-template let-product pTemplate="item">
+            <div class="border-1 surface-border border-round m-2 text-center py-5 px-3">
+              <p-card header="Advanced Card" subheader="Card Subheader" [style]="{ width: '360px' }">
+                <h4 class="mb-1">{{ product.name }}</h4>
+                <h6 class="mt-0 mb-3">{{ '$' + product.price }}</h6>
+                <div class="mt-5 flex align-items-center justify-content-center gap-2">
+                  <p-button icon="pi pi-search" [rounded]="true" />
+                  <p-button icon="pi pi-star-fill" [rounded]="true" />
+                </div>
+              </p-card>
+            </div>
+          </ng-template>
+        </p-carousel>
+      </div>
+      <a pButton pRipple href="https://github.com/SoHenriquez" aria-label="Github" target="_blank" rel="noopener"
+        pTooltip="GitHub" tooltipPosition="bottom"
+        class="font-bold px-5 py-3 p-button-raised p-button-rounded white-space-nowrap" label="Ver más"
+        icon="pi pi-github" [style.background]="'none'">
+
+      </a>
+    </div>
+  </div>
