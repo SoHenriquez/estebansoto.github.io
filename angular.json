@@ -15,7 +15,11 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:application",
+          "builder": "@angular-builders/custom-webpack:browser",
+          "webpack": true,
+          "customWebpackConfig": {
+            "path": "./webpack.config.js"
+          },
           "options": {
             "outputPath": "dist/portafolio",
             "index": "src/index.html",
